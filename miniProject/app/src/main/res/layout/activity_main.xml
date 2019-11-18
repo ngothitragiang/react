@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Cùng Bé Học Chữ Cái"
+            android:textColor="#2196F3"
+            android:textSize="25dp"></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#00922323"
+            android:text="A"
+            android:textColor="#F80404"
+            android:textColorHighlight="#FFEB3B"
+            android:textColorHint="#00BCD4" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textColor="#F81403" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textColor="#F71504" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:textColor="#F71404" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:textColor="#F81202" />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textColor="#F71302" />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textColor="#FC1605" />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:textColor="#FC1504" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:textColor="#F51707" />
+
+        <Button
+            android:id="@+id/k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K"
+            android:textColor="#F44336" />
+
+        <Button
+            android:id="@+id/l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textColor="#F44336" />
+
+        <Button
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textColor="#F44336" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtcCharacter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:text="A"
+        android:textSize="35dp" />
+</LinearLayout>
+
+</LinearLayout>
